@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PoT - Cyberpunk Edition</title>
+    <link rel="icon" type="image/png" href="TEAM.png">
+    <meta name="author" content="Khalid Samir Mohamed">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styile.css">
+</head>
+<body>
+    <!-- شاشة تسجيل الدخول -->
+    <div id="login-container">
+        <h2>🔑 Login</h2>
+        <input type="text" id="username" placeholder="Username">
+        <input type="password" id="password" placeholder="Password">
+        <button onclick="login()">Login</button>
+        <p id="error-message" style="color: red;"></p>
+    </div>
+
+    <!-- الصفحة الرئيسية بعد تسجيل الدخول -->
+    <div id="main-container">
+        <!-- الهيدر -->
+        <header>
+            <button id="menu-btn" onclick="toggleMenu()">☰</button>
+            <h2 id="page-title">🌌 Home</h2>
+        </header>
+
+        <!-- شريط الإشعارات -->
+        <div id="notification-bar"></div>
+
+        <!-- الشريط الجانبي -->
+        <nav id="sidebar">
+            <ul>
+                <li onclick="navigate('Rate')">⭐ Rate</li>
+                <li onclick="navigate('Tasks')">📋 Tasks</li>
+                <li onclick="openFacebook()">📘 Facebook</li>
+                <li onclick="openWhatsApp()">💬 WhatsApp</li>
+                <li onclick="openComedy()">😜 Pot-comedy</li>
+                <li onclick="openChallenge()">🧠 PoT-thallenge</li>
+            </ul>
+        </nav>
+
+        <!-- المحتوى الرئيسي -->
+        <main id="content">
+            <h2>Welcome to the Cyberpunk World 🌆</h2>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

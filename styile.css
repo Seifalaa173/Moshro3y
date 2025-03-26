@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(background.jpg);
+    background-size: cover; /* يجعل الصورة تغطي الصفحة بالكامل */
+    background-position: center; /* يضمن أن الصورة في المنتصف */
+    background-repeat: no-repeat; /* يمنع تكرار الصورة */
+    background-attachment: fixed; /* يثبت الخلفية عند التمرير */
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+
+#login-container {
+    width: 450px;
+    margin: 150px auto;
+    padding: 40px;
+    background: rgba(80, 81, 121, 0.6);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(80, 81, 121, 0.9);
+}
+
+input, button {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 5px;
+    border: 1px solid #ff00ff;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+button {
+    background-color: #ff00ff;
+    color: rgb(245, 240, 247);
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 0 15px #ff00ff;
+    transition: 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #00ffff;
+    box-shadow: 0 0 20px #00ffff;
+}
+
+h2, h1 {
+    color: #ff00ff;
+    text-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 30px #ff00ff;
+}
+
+#sidebar {
+    width: 250px;
+    background: #111;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    height: 100%;
+    transition: left 0.3s ease-in-out;
+    box-shadow: 2px 0 10px rgba(255, 0, 255, 0.5);
+}
+
+#sidebar ul {
+    list-style: none;
+    padding: 20px;
+}
+
+#sidebar li {
+    padding: 15px;
+    cursor: pointer;
+    border-bottom: 1px solid #ff00ff;
+    color: white;
+    transition: 0.3s;
+}
+
+#sidebar li:hover {
+    background: #ff00ff;
+    box-shadow: 0 0 15px #ff00ff;
+}
+
+#notification-bar {
+    background: rgba(68, 0, 255, 0.5);
+    padding: 20px;
+    display: none;
+    border-radius: 20px;
+    margin: 10px auto;
+    width: 80%;
+    text-align: center;
+    box-shadow: 0 0 20px #4400ff;
+    font-size: 20px;
+}
+
+#user-info img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid #ff00ff;
+    box-shadow: 0 0 15px #ff00ff;
+}
