@@ -2,7 +2,7 @@ const usersData = {
     "abdullah.as@pot": {
 password: "2420753",
 name: "Abdullah Samir Bashir Abdel Samad",
-Character: "عامل من بنها 🙃",
+Character: " ابو قلب طيب وعسليه  🙃",
 image: "samir.jpg",
 tasks: [
     { name: "Meeting", points: 2 },
@@ -122,7 +122,7 @@ tasks: [
 "abdelrahman.at@pot": {
 password: "2420713",
 name: "Abdelrahman Atef Mohamed Ali",
-Character: "الشبح 🕵️",
+Character: " الشبح الميت الله يرحمه🕵️",
 image: "zok.jpg",
 tasks: [
     { name: "Meeting", points: 2 },
@@ -234,7 +234,7 @@ tasks: [
 "khalid@pot": {
 password: "2420403",
 name: "Khalid Samir Mohamed Mohamed",
-Character: " بتاع الأحلام 🌙",
+Character: " خالد Meet  🌙",
 image: "kh.jpg",
 tasks: [
     { name: "Meeting", points: 2 },
@@ -298,7 +298,7 @@ tasks: [
 "islam.as@pot": {
 password: "2420115",
 name: "eslam saed abdelglel",
-Character: "آخر واحد يوصل ⏳",
+Character: "اروش واحد في التيم⏳",
 image: "esl.jpg",
 tasks: [
     { name: "Meeting", points: 2 },
@@ -312,7 +312,7 @@ tasks: [
 "sief.al@pot": {
 password: "2420568",
 name: "Seif El-Din Alaa Elsayed Abdel Latif Hassan",
-Character: "دماغه متكلفة 🧐",
+Character: " اجمد واحد في التيم 🧐",
 image: "seif.jpg",
 tasks: [
     { name: "Meeting", points: 2 },
@@ -423,7 +423,7 @@ tasks: [
 "ahmed.mo@pot": {
 password: "2420224",
 name: "Ahmed Mohamed Ali Abou Elhmed Hreidy",
-Character: "ملك الافورة 😆",
+Character: "حماصه الاسود😆",
 image: "ahm.jpg",
 tasks: [
     { name: "Meeting", points: 2 },
@@ -656,3 +656,4 @@ function openWhatsapp() {
 function openWhatsApp() {
     window.open("https://hosny153.github.io/Comedy-Game/", "_blank");
 }
+sidebar.classList.toggle("open");
